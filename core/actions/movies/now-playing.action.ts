@@ -17,6 +17,6 @@ export const nowPlayingAction = async () => {
 
     } catch (error) {
         console.log(error);
-        throw 'Cannot lado now playing movies';
+        throw 'Cannot load now playing movies';
     }
 };
